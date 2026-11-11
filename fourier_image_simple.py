@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 img = np.zeros((200, 200))
 img[60:140, 60:140] = 1.0
 
-# STEP 2: Go to the frequency domain with the 2D Fourier transform
+# STEP 2: Go to the frequency domain with the 2D Fourier transform 
 F = np.fft.fft2(img)
 
 # STEP 3: Make a grid of frequencies (kx = left-right, ky = up-down)
